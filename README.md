@@ -13,6 +13,6 @@ The Docker setup for PHP applications using PHP7.2 and Nginx
 * Network for containers is called code-network
 * To change network, edit the docker-compose.yml
 * Show networks with `sudo docker network list`
-* To join other networks use `sudo docker connect code-network <container>`
+* To join other container like a database use `sudo docker connect code-network <container>`
 
 
