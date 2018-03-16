@@ -4,5 +4,4 @@ up:
 
 # End dockercontainer
 down:
-	sudo docker kill basicdocker_web_1
-	sudo docker kill basicdocker_php_1
+	sudo docker-compose down
