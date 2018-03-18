@@ -1,0 +1,30 @@
+{
+  "name": "messanger/eventstore",
+  "description": "Basic Eventstore for messages",
+  "keywords": ["eventstore", "PHP7", "messanger"],
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Philipp Köhler",
+      "email": "philipp.koehler@flyeralarm.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "src/",
+      "tests/"
+    ]
+  },
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  }
+}

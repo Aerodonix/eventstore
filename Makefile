@@ -1,7 +1,11 @@
-# Start dockercontainer
+## start needed dockercontainer
 up:
 	sudo docker-compose up -d
 
-# End dockercontainer
+## end all dockercontainer
 down:
 	sudo docker-compose down
+
+## installation
+install
+    composer install
